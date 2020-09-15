@@ -5,7 +5,7 @@
 var generateParenthesis = function(n) {
     var result = [];
 
-    backTrack(result, '', 0, 0, max);
+    backTrack(result, '', 0, 0, n);
 
     return result;
 };
